@@ -1,4 +1,4 @@
-# Why GopherJS instead of straight JavaScript?
+# Why GopherJS instead of JavaScript?
 
 * You can use Go libraries in the browser
 * You can still use JavaScript libraries, too
@@ -7,4 +7,7 @@
  - Strict types
  - Duct typing
  - Concise, unambiguous language
+ - field tags in structs
+ - html/template
+ - interfaces
  - **Go routines!!!!!!!1**

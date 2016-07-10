@@ -1,3 +1,5 @@
+# Calling Go code from Javascript
+
 **MakeWrapper()** allows a Go struct:
 
 ``` go

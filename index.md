@@ -3,14 +3,36 @@
 [About me](010_me.md)
 [What is GoperJS?](020_what_is_GopherJS.md)
 [What is GopherJS? #2](030_what_is2.md)
-[What is supported](040_what_is_supported.md)
 [How I got started](050_how_I_started.md)
+
 [Why GopherJS?](060_why_gopherjs.md)
 [Why not GopherJS?](070_why_not_gopherjs.md)
+
+[What is supported](040_what_is_supported.md)
+
 [Integrating with JS](080_integrating.md)
-[Go in JS](090_go_in_js.md)
-[MakeWrapper Pt 1](100_MakeWrapper1.md)
-[MakeWrapper Pt 2](110_MakeWrapper2.md)
-[MakeWrapper Complete Example](120_MakeWrapper_complete.md)
-[MakeWrapper JS Example](130_MakeWrapper_js.md)
-[End](999_end.md)
+
+[MakeWrapper Pt 1](110_MakeWrapper1.md)
+[MakeWrapper Pt 2](120_MakeWrapper2.md)
+[MakeWrapper Complete Example](130_MakeWrapper_complete.md)
+[MakeWrapper JS Example](140_MakeWrapper_js.md)
+
+[js.Object](200_js_Object.md)
+[js.Object Type Methods](210_js_type_conv.md)
+[Type Conversions](090_types.md)
+[js.Object tags](220_js_tags.md)
+[js.Object Bindings](230_js_bindings1.md)
+[js.Object Wrappers](240_js_bindings2.md)
+[js.Object Wrappers 2](250_js_bindings3.md)
+[js.Object Go-style async](260_js_bindings_async.md)
+
+[Some Gotchas](300_gotchas.md)
+
+[Demo](400_demo.md)
+[Demo 2](405_demo1.md)
+[Demo 3](410_demo2.md)
+[Demo Stats](420_demo_stats.md)
+
+[The Future](500_future.md)
+
+[Further Reading](800_further_reading.md)

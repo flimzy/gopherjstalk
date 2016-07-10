@@ -1,4 +1,4 @@
-# Calling Go code from within JavaScript
+# Mixing Go with JavaScript
 
 The GopherJS library provides two pieces of functionality for this:
 

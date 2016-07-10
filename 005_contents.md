@@ -2,13 +2,13 @@
 
 - Who am I?
 - What is GopherJS?
-- What is supported in GopherJS
 - How I got interested in GopherJS
 - Reasons to use GopherJS instead of JavaScript
 - Reasons not to use GopherJS instead of JavaScript
+- What is supported in GopherJS
+- Type conversions
+- Using Go code from JavaScript
+- Using JavaScript code from Go
 - Some “Gotchas”
-- Integrating with existing JavaScript libraries
 - A very “short” demo
 - The future of GopherJS
-
-This talk will contian very little code.
