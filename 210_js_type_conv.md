@@ -7,9 +7,10 @@ The **js** package has several easy type conversion methods:
 - Int() int
 - Int64() int64
 - Uint64() uint64
+- String() string
 
 Any other needs can use
 
 - Interface() interface{}
 
-to extract the underlying type, as defined in the following table...
+to extract the underlying type, using reflection.

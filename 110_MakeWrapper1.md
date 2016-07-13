@@ -1,6 +1,6 @@
 # Calling Go code from Javascript
 
-**MakeWrapper()** allows a Go struct:
+A standard Go struct:
 
 ``` go
 type Pet struct {

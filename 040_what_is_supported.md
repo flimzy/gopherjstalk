@@ -6,7 +6,7 @@ Standard Go libraries are supported except:
  - net/* (partial support), tls
  - os/*, syscall (mostly supported, but in node.js only)
  - runtime (partial support)
- - Timezones other than UTC and Local
  - unsafe
+ - Timezones other than UTC and Local
  
-In practice, **runtime** and **unsafe** are the only things here that often matter.
+In practice, **runtime** and **unsafe** are all that often matter.

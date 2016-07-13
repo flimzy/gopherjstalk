@@ -1,10 +1,6 @@
-...to be treated as a standard JS object:
+... can be treated as a standard JS object with **MakeWrapper()**:
 
 ``` go
-package main
-
-import "github.com/gopherjs/gopherjs/js"
-
 func main() {
     js.Global.Set("pet", map[string]interface{}{
         "New": New,

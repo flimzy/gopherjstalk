@@ -5,7 +5,9 @@ func (w *Widget) FrobnicateWithTransformation(transform func(string) string) (ou
     var wg sync.WaitGroup
     wg.Add(1)
     go func() {
-        // Note we're calling the same underlying function, but with different arguments
+        // w.frobnicate(transform, function(o) {
+        //     output = o;
+        // }
         w.o.Frobnicate(transform, func(o string) {
             output = o
             wg.Done()

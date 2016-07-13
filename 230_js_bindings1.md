@@ -1,6 +1,6 @@
 # Go bindings for JS code
 
-It is possible to make direct calls to all JS libraries, but the greatest benefit is had by using bindings.
+It is possible to make direct calls to all JS libraries, but bindings are easier.
 
 Best practice is to write a very minimal binding layer around a JavaScript library:
 
@@ -15,12 +15,16 @@ type Widget struct {
 }
 
 func New(value string) *Widget { // Constructor wrapper
+    // var w = new Object;
     w := js.Global.Get("Object").New()
+    // w.value = value;
     w.Value = value
+    // return w
     return w
 }
 
 func (w *Widget) Frobnicate(args ...interface{}) {
-    w.Call("frobnicate", args...) // An async callback with variable number/type of arguments
+    // w.frobnicate(args1, arg2, arg3, .. argN);
+    w.Call("frobnicate", args...) // Async func with variable number/type of arguments
 }
 ```
