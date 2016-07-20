@@ -9,11 +9,10 @@ type Widget struct {
 }
 
 func New(value string) *Widget { // Constructor wrapper
-    // var w = new Object;
-    w := js.Global.Get("Object").New()
-    // w.value = value;
-    w.Value = value
-    // return w
+    // var o = new Object;
+    o := js.Global.Get("Object").New()
+    // o.value = value;
+    w := &Widget{Object: o, Value: value}
     return w
 }
 
