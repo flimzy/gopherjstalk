@@ -2,11 +2,11 @@
 
 I wanted some presentation software that:
 
-- Was simple to use
+- Was simpler than Google Slides
 - Could understand Markdown and HTML
 - Would allow running a GopherJS demo
 
-So I wrote this presentation software in GopherJS to understand Markdown, thereby acheiving these goals.
+I wrote this presentation in GopherJS to do this.
 
 I wrote only a single line of JavaScript when building this software:
 

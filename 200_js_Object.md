@@ -4,7 +4,7 @@
 
 ``` go
 func main() {
-    window := js.Global // `window` in the browser, `GLOBAL` for node.js
+    window := js.Global /* `window` in the browser, `GLOBAL` for node.js */
     // var div = window.getElementById("someid");
     div := js.Call("getElementById", "someid")
     // console.log("Inner HTML contains: %s\n", div.innerHTML());

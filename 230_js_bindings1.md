@@ -1,14 +1,8 @@
 # Go bindings for JS code
 
-It is possible to make direct calls to all JS libraries, but bindings are easier.
-
-Best practice is to write a very minimal binding layer around a JavaScript library:
+Bindings are easier than direct calls to JS libraries.
 
 ``` go
-package frobbinding
-
-import "github.com/gopherjs/gopherjs/js"
-
 type Widget struct {
     js.Object
     Value string `js:"value"`

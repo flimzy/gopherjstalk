@@ -1,6 +1,6 @@
 # Integrating with existing JS libraries
 
-There are two approaches:
+Two approaches:
 
 - Expose your Go code to JavaScript
 
@@ -8,4 +8,4 @@ There are two approaches:
 
 - Wrap JavaScript libraries in Go
 
-    For projects written primarily in Go which need to communicate with an existing JavaScript library. For instance, to manipulate the DOM, access Local Storage, or use Web Workers.
+    For projects written primarily in Go which need to communicate with an existing JavaScript library. To manipulate the DOM, access Local Storage, Web Workers, etc.

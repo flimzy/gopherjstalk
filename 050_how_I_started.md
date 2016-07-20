@@ -4,8 +4,10 @@
 
 - I dislike JavaScript
 
+- Wasn't excited about learning Java
+
 - I like Go
 
 - GopherJS works well, and it's fast
 
-- It's easy to contribute
+- Turns out, it's easy to contribute

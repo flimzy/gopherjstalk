@@ -1,6 +1,6 @@
-# Calling Go code from Javascript
+# Calling Go code from JavaScript
 
-A standard Go struct:
+A standard Go struct, with getter and setter:
 
 ``` go
 type Pet struct {

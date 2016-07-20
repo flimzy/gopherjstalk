@@ -9,7 +9,7 @@ type Pet struct {
 }
 ```
 
-This ties the Go struct element **Name** to the underlying JavaScript object's key **name**. This is useful for:
+This ties the Go struct element **Name** to the underlying JavaScript object's key **name**.
 
 - No Getters or Setters
 

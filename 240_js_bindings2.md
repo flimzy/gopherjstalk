@@ -1,4 +1,4 @@
-... with an idiomatic Go layer on top of that:
+... with an idiomatic Go layer on top:
 
 ``` go
 type Widget struct {

@@ -1,3 +1,5 @@
+# Questions?
+
 # Thank you
 
 ## Contact me
@@ -11,5 +13,3 @@
 - GitHub repo: http://github.com/gopherjs
 - This slide show presentation software: http://github.com/flimzy/mdslides
 - The slides: http://github.com/flimzy/gopherjstalk
-
-# Questions?
